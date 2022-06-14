@@ -1,0 +1,9 @@
+name: Manyheads
+version: '${project.version}'
+main: org.zeppelin.manyheads.Manyheads
+api-version: 1.18
+
+commands:
+  head:
+    description: Get head
+    usage: /head
